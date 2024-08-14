@@ -14,7 +14,7 @@ export function createOrganizationIdCookie(params: {
     httpOnly: false,
     secure,
     path: '/',
-    sameSite: 'lax' as const,
+    sameSite: 'none' as const,
   };
 }
 

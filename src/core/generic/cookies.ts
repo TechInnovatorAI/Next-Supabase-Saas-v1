@@ -20,7 +20,7 @@ export function setCookie(
     httpOnly?: boolean;
   } = {
     path: '/',
-    sameSite: 'lax',
+    sameSite: 'none',
     expires: undefined,
     httpOnly: false,
   },
